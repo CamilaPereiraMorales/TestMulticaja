@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+                    <img src="./img//logo.png" class="imgLogoDesktop"></img>
+          
+    <div class="container">
+                    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                            <img src="./img//logo.png" class="imgLogoMobile"></img>
+                            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav right">
+                                <li class="nav-item active ">
+                                  <a class="nav-link" href="#">Quienes Somos <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Agregar dolares <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Retirar dolares <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Vender <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Empresas <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                     <a class="nav-link" href="#">Ayuda <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+                                </li>
+                        
+                              </ul>
+                            </div>
+                          </nav>
+                        </div>
+    <!-- Carrusel -->
+    <div class="">
+        <div class="row">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./img/slide_03.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption accountBox">
+                                <h3 class="accountBoxTitle">AGREGAR DOLARES A PAYPAL <br>TRANSFIRIENDO DESDE TU CUENTA</h3>
+                                <h5 class="accountBoxSubtitle">Desde tu cuenta rut, vista, corriente o ahorro, y comienza a comprar en <br>mas de 200 paises</h5>
+                                <button class="accountBoxBtn round">REGISTRATE AQUI</button>
+                                <h5 class="accountBoxLink">¿Ya tienes cuenta Multicaja Paypal? Ingresa <span style="text-decoration:underline">aqui</span></h5>
+                                </div>
+                            </div>
+                          <div class="carousel-item">
+                              <img src="./img/slide_01.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/slide_02.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          
+                        </div>
+                </div>          
+        </div>
+        
+    </div>
+    <div class="accountBoxMobile">
+            <h3 class="accountBoxTitle">ACEPTA PAGOS CON PAYPAL Y AUMENTA TUS VENTAS INTERNACIONALES!</h3>
+            <h5 class="accountBoxSubtitle">Abre tu negocio a mas de 200 millones de clientes en todo el mundo, en 203 mercados y 26 divisas.</h5>
+            <img  class="paymenticons" src="img/paymenticons.png">
+            <button class="accountBoxBtn round">SOLICITA ASESORIA COMERCIAL</button>
+            <h5 class="accountBoxLink">O envianos un correo a <span style="text-decoration:underline">ventaspaypal@multicaja.cl</span></h5>
+            </div>
+
+ <!-- Botonera -->
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-light"><i class="fab fa-paypal fa-4x" style="color: aqua "></i>
+                  <input class="textoBtn" type="radio" name="options" id="option1" autocomplete="off" checked>Acerca de Paypal
+                </label>
+                <label class="btn btn-light"><i class="fas fa-clipboard-list fa-4x" style="color:aqua" ></i>
+                  <input class="textoBtn" type="radio" name="options" id="option2" autocomplete="off"> Envia solicitudes de pago a tus clientes
+                </label>
+                <label class="btn btn-light"><i class="fas fa-shopping-cart fa-4x" style="color:aqua"></i>
+                  <input class="textoBtn" type="radio" name="options" id="option3" autocomplete="off"> Acepta pagos en linea
+                </label>
+        </div>
+        <div class="mobileBtn">
+                <button class="btn"><i class="fab fa-paypal fa-2x" style="color: aqua "></i></button>
+                <button class="btn"><i class="fas fa-clipboard-list fa-2x" style="color:aqua" ></i></button>
+                <button class="btn"><i class="fas fa-shopping-cart fa-2x" style="color:aqua"></i></button>
+        </div>
+
+<!--Card with image and button-->
+
+        <div class="cardsContainer container" id="cardBox">
+          <h3 class="text-center">Te damos acceso a compras internacionales,<span style="color:blue"> sin tarjetas de credito</span>,<br> con el sistema mas rapido y seguro del mundo</h3>
+          <div class="card-deck">
+            <div class="card">
+              <img src="./img/vender.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="cardsBtn">Como vender con PayPal</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/computador.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="cardsBtn">Como retirar dolares desde PayPal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--blue container-->
+
+        <div class="detailBox">
+          <i id="mobileIcon" class="fas fa-code fa-2x" style="color: white "></i>
+          <h3><i id="desktopIcon" class="fas fa-code fa-2x" style="color: white "></i><strong>Compra el mundo con tu cuenta rut</strong></h3>
+          <p class="detailAbstract" >Con Multicaja podras agregar dolare a tu cuenta PayPal a traves de tu cuenta rut y cualquier cuenta bancaria</p>
+          <h5>Como agregar dolares con tu cuenta rut [+]</h5>
+
+        </div>
+
+        <!--slide2-->
+
+        <div class="slide2">
+          <h3 class="secondSlideTextDesktop">Descubre donde compran nuestros usuarios con PayPal</h3>
+          <h3 class="secondSlideTextMobile1">Compra en los mejores sitios web</h3>
+          <h4 class="secondSlideText2">Miles de usuarios nos prefieren para comprar en el extranjero</h4>
+          <div class="dropdown text-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ver tabla comisiones
+              </button>
+              <table class="table dropdown-menu text-center .dropdown-menu-center">
+                  <thead class="text-center">
+                    <tr>
+                      <th scope="col">Monto del retiro</th>
+                      <th scope="col">Comision</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Entre USD 20 y USD 2000</th>
+                      <td>USD 10 fijos</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Mayor a USD 2000</th>
+                      <td>0.5% del monto a retirar</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small pt-4">
+  <div class="container-fluid text-left">
+    <div class="row">
+      <div class="col-3 sm-12">
+        <h5 class="text-uppercase titulosFt"><strong>Agregar dolares</strong></h5>
+
+        <ul class="list-unstyled ">
+          <li>
+            <a >Agregar dolares</a>
+          </li>
+          <li>
+            <a class="spaceText">Como agregar</a>
+          </li>
+          <li>
+            <a class="spaceText">Comprar con Paypal</a>
+          </li>
+          <li>
+            <a >Compra con tu cuenta RUT</a>
+          </li>
+          <li>
+            <a >Sitios para comprar con PayPal</a>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-3 sm-12">
+
+          <!-- Links -->
+          <h5 class="text-uppercase titulosFt"><strong>retirar dolares</strong></h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a >Retirar dolares</a>
+            </li>
+            <li>
+              <a>Como Retirar</a>
+            </li>
+            <li>
+              <a >vender con PayPal</a>
+            </li>
+            <li>
+              <a >PayPal para empresas</a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-3 sm-12">
+
+          <!-- Links -->
+          <h5 class="text-uppercase titulosFt"><strong>relacionados</strong></h5>
+
+          <ul class="list-unstyled ">
+            <li>
+              <a >Quienes Somos</a>
+            </li>
+            <li>
+              <a >Ayuda</a>
+            </li>
+            <li>
+              <a >Seguridad</a>
+            </li>
+            <li>
+              <a >Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 sm-12">
+
+          <!-- Links -->
+          <h5 class="text-uppercase titulosFt"><strong>siguenos</strong></h5>
+
+          <ul class="list-unstyled">
+            <li>
+             <img class="sNetworks" src="./img/snetworks.png" alt="">
+            </li>
+          </ul>
+        </div>
+
+    </div>
+
+  </div>
+ 
+  <div class="footerImg ">
+      <img class="footerImgs" src="./img/logo.png" alt="">
+      <img class="footerImgs" src="./img/paypal-secured-icon.png">
+  </div>
+  <div class="dropdown-divider"></div>
+  <div class="footer-copyright text-center py-3 textoFt">Multicaja en asociacion con PayPal 2013-2018 |
+    <a href="">Terminos y condiciones del servicio </a> | <a href="">Buscar boleta electronica</a>
+  </div>
+
+
+</footer>
+
+   
+                          
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
